@@ -6,7 +6,7 @@ The intended experience is fast, social, cinematic, funny, and readable for non-
 
 ## Current status
 
-Pre-production design. Phase 1 and Phase 2A are complete as first passes. The next milestone is exact **Rules v0.1**, player-count deck recipes, and a text-only card catalogue.
+Pre-production design. Exact **Rules v0.1**, player-count deck recipes, a text-only card catalogue, and automated structural validation now exist. The next milestone is the first open-hand playtest and rules revision.
 
 No application code or deployment exists yet.
 

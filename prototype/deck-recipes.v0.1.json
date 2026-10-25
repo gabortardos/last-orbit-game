@@ -1,0 +1,19 @@
+{
+  "version": "0.1",
+  "startingOrdinaryCardsPerPlayer": 5,
+  "personalEmergencyReroutesPerPlayer": 1,
+  "maxQueuedPressure": 3,
+  "maxCurrentFlightPressure": 4,
+  "inventory": {
+    "CM-001": 5, "CM-002": 4, "CM-003": 4, "CM-004": 5,
+    "CM-005": 4, "CM-006": 4, "CM-007": 3,
+    "CT-001": 6, "CT-002": 5, "CT-003": 5,
+    "ER-001": 7, "CRISIS_POOL": 8
+  },
+  "recipes": {
+    "2": {"ordinary":{"CM-001":2,"CM-002":1,"CM-003":2,"CM-004":2,"CM-005":2,"CM-006":1,"CM-007":1,"CT-001":3,"CT-002":2,"CT-003":2},"extraEmergencyReroutes":1,"crises":1,"expectedStartingFlightDeck":10},
+    "3": {"ordinary":{"CM-001":3,"CM-002":2,"CM-003":3,"CM-004":3,"CM-005":3,"CM-006":2,"CM-007":1,"CT-001":4,"CT-002":3,"CT-003":3},"extraEmergencyReroutes":1,"crises":2,"expectedStartingFlightDeck":15},
+    "4": {"ordinary":{"CM-001":4,"CM-002":3,"CM-003":3,"CM-004":4,"CM-005":4,"CM-006":3,"CM-007":2,"CT-001":5,"CT-002":4,"CT-003":4},"extraEmergencyReroutes":2,"crises":3,"expectedStartingFlightDeck":21},
+    "5": {"ordinary":{"CM-001":5,"CM-002":4,"CM-003":4,"CM-004":5,"CM-005":4,"CM-006":4,"CM-007":3,"CT-001":6,"CT-002":5,"CT-003":5},"extraEmergencyReroutes":2,"crises":4,"expectedStartingFlightDeck":26}
+  }
+}

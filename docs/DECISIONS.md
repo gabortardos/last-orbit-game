@@ -54,3 +54,25 @@
 - Status: accepted
 - Decision: future models must be able to continue from canonical repository documents without conversation history.
 
+## DEC-009 — Separate aggression from self-protection
+
+- Date: 25 October 2026
+- Status: experimental
+- Decision: Forced Detour adds future Flight Pressure to an opponent but does not end the commander's own turn or remove their required draw.
+- Reason: create a structurally different and fairer interaction than an attack that simultaneously skips the attacker's risk.
+- Evidence required: human playtests.
+
+## DEC-010 — Bounded target-only reactions
+
+- Date: 25 October 2026
+- Status: experimental
+- Decision: only the targeted player may react. One Decoy redirection is allowed, after which the new target may only Signal Jam.
+- Reason: preserve defensive interaction while avoiding unlimited online reaction chains and speed-click priority.
+
+## DEC-011 — Exact v0.1 deck recipes
+
+- Date: 25 October 2026
+- Status: experimental
+- Decision: use nine ordinary cards per player, deal five per player, and construct exact 2–5 player recipes with 10–15.4% initial Crisis density.
+- Evidence: automated structural validation passed; balance and fun remain untested.
+

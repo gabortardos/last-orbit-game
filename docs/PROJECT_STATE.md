@@ -2,7 +2,7 @@
 
 Last updated: 25 October 2026  
 Status: pre-production design  
-Active milestone: Rules v0.1 and text-only prototype specification
+Active milestone: PT-001 open-hand playtest and Rules v0.2 revision
 
 ## Completed
 
@@ -14,6 +14,10 @@ Active milestone: Rules v0.1 and text-only prototype specification
 - Owner confirmed intended browser-accessible online multiplayer product.
 - Owner confirmed graphics and animation as core eventual requirements.
 - Repository continuity and documentation system established.
+- Exact Rules v0.1 written.
+- Exact 2–5 player deck recipes and card catalogue written.
+- Machine-readable deck recipe added.
+- Automated deck, inventory, Pressure, redirection, and elimination-invariant validation passed.
 
 ## Confirmed current direction
 
@@ -32,16 +36,16 @@ Active milestone: Rules v0.1 and text-only prototype specification
 
 ## Current design question
 
-Create an original complete action system and exact deck recipes without producing a superficial space reskin. The rules must explicitly resolve the timing and edge cases listed in the Phase 1 report.
+Determine whether Rules v0.1 is understandable and fun in actual play, especially whether two Commands, future Flight Pressure, bounded reactions, and Crisis Reroute create agency without slowing the game.
 
 ## Next tasks
 
-1. Define the complete v0.1 card taxonomy.
-2. Calculate exact 2-, 3-, 4-, and 5-player deck recipes.
-3. Write exact card text and timing rules.
-4. Write Rules v0.1.
-5. Run scripted resolution examples and consistency checks.
-6. Conduct the first open-hand tutorial playtest.
+1. Conduct PT-001, the prepared three-player open-hand tutorial playtest.
+2. Record every ambiguity, dead card, dominant interaction, and timing problem.
+3. Decide whether Emergency Reroute should clear all remaining current Pressure.
+4. Evaluate Decoy Beacon in two-player play.
+5. Revise to Rules v0.2 only from recorded evidence.
+6. Follow with closed-hand 2-, 3-, 4-, and 5-player tests.
 
 ## Not started
 
@@ -55,5 +59,5 @@ Create an original complete action system and exact deck recipes without produci
 
 ## Resume instruction
 
-Continue with Rules v0.1. Do not begin application architecture selection or visual production until the prototype rules and deck recipes exist and pass scripted validation.
+Continue with PT-001 using Rules v0.1. Do not begin application architecture selection or visual production until human playtesting demonstrates a promising core loop.
 
